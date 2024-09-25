@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly; 
+    box-shadow: 0px 5px 15px  rgb(158, 152, 152);
+}
+.nav button,.bod{
+    border: .8px solid black;
+    padding: 10px;
+}
+.first{
+    height: 400px;
+    background-image:url(https://img-b.udemycdn.com/notices/web_carousel_slide/image/83a08254-bc5b-4f1b-ae25-e10606e701ed.png) ;
+ }
+.matter{
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 205px;
+    width: 390px;
+    margin-top: 70px;
+    margin-left: 80px;
+    background-color: white;
+    box-shadow: 50px 0px white;
+}
+.second{
+    padding: 55px;
+    line-height: 31px;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.7rem;
+    margin-right: 380px;
+    margin-bottom: 16px;
+}
+.fourth button{
+    padding: 14px;
+    border-radius: 50px;
+}
+.fourth{
+    margin: 20px 12px;
+    display: flex;
+    gap: 16px;
+}
+
+/* horiz cards */
+
+.Box-start{
+    display: flex;
+    gap: 10px;
+    background-color: #f3f1f1;
+}
+.box{
+display: flex;
+flex-direction: column;
+width: 320px;
+padding: 10px;
+margin: 24px;
+gap: 10px;
+border: 1px solid #AAAAAA;
+border-radius: 20px;
+box-shadow: 0px 5px 15px  rgb(158, 152, 152);
+}
+.box img{
+    width: 100%;    
+}
+
+/* sixth */
+.sixth{
+    background-color: #f3f1f1;
+}
+.sixth button{
+    margin: 40px;
+    border: 1px solid #AAAAAA;
+    padding: 14px;
+    background-color: white;
+}
+.sixth h5{
+    font-size: 1.1rem;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bx{
+    border: .8px solid #AAAAAA;
+    border-radius: 14px;
+    padding: 8px;
+    margin-left: 36px;
+    width: 660px;
+    box-shadow: 0px 5px 15px  rgb(158, 152, 152);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: #f3f1f1;
+    padding: 30px;
+}
+.inr{
+    border: .8px solid #AAAAAA;
+    border-radius: 16px;
+    padding: 8px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: white;
+    box-shadow: 0px 26px 15px  rgb(158, 152, 152);
+    border-top: 10px solid rgb(128, 0, 128)
+}
+.lastbutone{
+    margin-top:30px;
+    margin-left: 20px;
+}
+.last a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
